@@ -46,7 +46,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2.5">
                 <Github size={14} className="text-green-600 shrink-0" />
-                <a href="https://github.com" className="text-sm text-white/50 hover:text-green-400 transition-colors">github.com/ktdi-marketplace</a>
+                <a href="https://github.com/Sumaita-Alam/KTDI-Marketplace " className="text-sm text-white/50 hover:text-green-400 transition-colors">github.com/ktdi-marketplace</a>
               </div>
             </div>
           </div>

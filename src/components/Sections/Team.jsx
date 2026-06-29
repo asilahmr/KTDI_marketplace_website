@@ -4,6 +4,8 @@ import { FiGithub as Github, FiLinkedin as Linkedin } from 'react-icons/fi'
 import { FadeIn } from '../Shared/FadeIn'
 import asilahAvatar from '../../assets/images/asilah.png'
 import sumaitaAvatar from '../../assets/images/sumaita.jpg'
+import tangShuhanAvatar from '../../assets/images/tang.jpg'
+import namSookJingAvatar from '../../assets/images/nam.jpg'
 
 const team = [
   {
@@ -12,7 +14,7 @@ const team = [
     avatar: sumaitaAvatar,
     verified: true,
     email: 'alam@graduate.utm.my',
-    github: 'https://github.com',
+    github: 'https://github.com/Sumaita-Alam',
     linkedin: 'https://www.linkedin.com/in/sumaita-alam-6524b3348?utm_source=share_via&utm_content=profile&utm_medium=member_android',
   },
   {
@@ -25,22 +27,22 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/asilahmr/',
   },
   {
-    name: 'Tan Shuhan',
+    name: 'Tang Shuhan',
     role: 'Developer',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200&h=200',
+    avatar: tangShuhanAvatar,
     verified: true,
-    email: 'shuhan@ktdi.utm.my',
-    github: 'https://github.com',
-    linkedin: 'https://linkedin.com',
+    email: 'tangtangshuhan@graduate.utm.my',
+    github: 'https://github.com/TANGSHUHAN77',
+    linkedin: 'https://www.linkedin.com/in/tangshuhan/',
   },
   {
     name: 'Nam Sook Jing',
     role: 'Developer',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200&h=200',
+    avatar: namSookJingAvatar,
     verified: true,
-    email: 'sookjing@ktdi.utm.my',
-    github: 'https://github.com',
-    linkedin: 'https://linkedin.com',
+    email: 'namsookjing@graduate.utm.my',
+    github: 'https://github.com/namsookjing',
+    linkedin: 'https://www.linkedin.com/in/namsookjing03',
   },
 ]
 
