@@ -2,6 +2,7 @@ import React from 'react'
 import { Mail, Check } from 'lucide-react'
 import { FiGithub as Github, FiLinkedin as Linkedin } from 'react-icons/fi'
 import { FadeIn } from '../Shared/FadeIn'
+import asilahAvatar from '../../assets/images/asilah.png'
 
 const team = [
   {
@@ -16,7 +17,7 @@ const team = [
   {
     name: 'Asilah Mohd Razak',
     role: 'Developer',
-    avatar: 'src/assets/images/asilah.png',
+    avatar: asilahAvatar,
     verified: true,
     email: 'asilahmr16@gmail.com',
     github: 'https://github.com/asilahmr',
