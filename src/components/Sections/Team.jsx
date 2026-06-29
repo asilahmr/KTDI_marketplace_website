@@ -3,16 +3,17 @@ import { Mail, Check } from 'lucide-react'
 import { FiGithub as Github, FiLinkedin as Linkedin } from 'react-icons/fi'
 import { FadeIn } from '../Shared/FadeIn'
 import asilahAvatar from '../../assets/images/asilah.png'
+import sumaitaAvatar from '../../assets/images/sumaita.jpg'
 
 const team = [
   {
     name: 'Sumaita Alam',
     role: 'Product Lead',
-    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200&h=200',
+    avatar: sumaitaAvatar,
     verified: true,
-    email: 'sumaita@ktdi.utm.my',
+    email: 'alam@graduate.utm.my',
     github: 'https://github.com',
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/sumaita-alam-6524b3348?utm_source=share_via&utm_content=profile&utm_medium=member_android',
   },
   {
     name: 'Asilah Mohd Razak',

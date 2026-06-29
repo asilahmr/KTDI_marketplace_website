@@ -12,7 +12,8 @@ import {
   Backpack,
   Lightbulb,
 } from "lucide-react";
-import { PhoneShell, HomeScreen } from "../Shared/PhoneSimulator";
+import { PhoneShell } from "../Shared/PhoneSimulator";
+import homeImg from "../../assets/screenshots/home.png";
 
 const FLOAT_ITEMS = [
   { icon: Laptop, label: "Laptop", price: "RM 1,200", top: "12%", left: "-160px", delay: "0s" },
@@ -146,7 +147,7 @@ export default function Hero() {
           {/* phone */}
           <div style={{ animation: "phoneFloat 5s ease-in-out infinite" }}>
             <PhoneShell>
-              <HomeScreen />
+              <img src={homeImg} alt="KTDI Market Home Screen" className="w-full h-full object-cover select-none" />
             </PhoneShell>
           </div>
         </div>

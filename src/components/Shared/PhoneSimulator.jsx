@@ -5,6 +5,14 @@ import {
   MessageCircle, Heart, User, Package, Bell, Star, Check
 } from "lucide-react";
 
+import chatImg from "../../assets/screenshots/chat.png";
+import homeImg from "../../assets/screenshots/home.png";
+import loginImg from "../../assets/screenshots/login.png";
+import myListingsImg from "../../assets/screenshots/myListings.png";
+import profileImg from "../../assets/screenshots/profile.png";
+import searchImg from "../../assets/screenshots/search.png";
+import wishlistImg from "../../assets/screenshots/wishlist.png";
+
 // Home component icon mapping
 const Home = ({ className, size }) => (
   <svg
@@ -304,14 +312,13 @@ export function WishlistScreen() {
 
 export function getAppScreens() {
   return [
-    { label: "Home", screen: <HomeScreen /> },
-    { label: "Categories", screen: <CategoriesScreen /> },
-    { label: "Product Detail", screen: <ProductScreen /> },
-    { label: "Search", screen: <SearchScreen /> },
-    { label: "Chat", screen: <ChatScreen /> },
-    { label: "Profile", screen: <ProfileScreen /> },
-    { label: "My Listings", screen: <ListingsScreen /> },
-    { label: "Wishlist", screen: <WishlistScreen /> },
+    { label: "Login", screen: <img src={loginImg} alt="Login Screen" className="w-full h-full object-cover select-none" /> },
+    { label: "Home", screen: <img src={homeImg} alt="Home Screen" className="w-full h-full object-cover select-none" /> },
+    { label: "Search", screen: <img src={searchImg} alt="Search Screen" className="w-full h-full object-cover select-none" /> },
+    { label: "Chat", screen: <img src={chatImg} alt="Chat Screen" className="w-full h-full object-cover select-none" /> },
+    { label: "Wishlist", screen: <img src={wishlistImg} alt="Wishlist Screen" className="w-full h-full object-cover select-none" /> },
+    { label: "My Listings", screen: <img src={myListingsImg} alt="My Listings Screen" className="w-full h-full object-cover select-none" /> },
+    { label: "Profile", screen: <img src={profileImg} alt="Profile Screen" className="w-full h-full object-cover select-none" /> },
   ];
 }
 
